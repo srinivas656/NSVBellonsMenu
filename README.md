@@ -20,25 +20,33 @@ Import  the Header file in your class and create UIBUtton in xib or stroy board 
     
  **Bellons Tag Configuration**
     
-     [nsv setBellonTag_y_Padding:20];
+    [nsv setBellonTag_y_Padding:20];
     [nsv setBellonTag_x_Width:0.5];
    
  **Bellons  Configuration**
    
     [nsv setBellon_x_Padding:0];
-   [nsv setBellon_y_Padding:0];
+    [nsv setBellon_y_Padding:0];
     [nsv setBellon_x_Padding:6];
     
 **Animation speed Configuration**
+
     [nsv setShack_speed:3];
+    
 **Bellons Image Configuration**
-   [nsv setBellon_img_key:@"img"];
+
+    [nsv setBellon_img_key:@"img"];
+    
 **Bellons background color Configuration** 
+
     [nsv setBellon_color_key:@"color"];
+    
 **Bellons Tag color Configuration**
+
     [nsv setBellon_Tag_color:[UIColor lightGrayColor]];
   
   **Delegate Method ** 
+  
     -(void)didTouchedBellon:(id)dict andBellonTag:(int)bellontag{
     }
     
