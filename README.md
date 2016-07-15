@@ -1,25 +1,24 @@
 # NSVBellonsMenu
-Create Menu like flying bellons with animations and custom modification
+**Create Menu like flying bellons with animations and custom modification**
+**NSVBellons Menu is like show th menu or options as like as fyling bellons . The menu buttons are fyling as real time bellons with beautiful andimation.**
 
-NSVBellons Menu is like show th menu or options as like as fyling bellons . The menu buttons are fyling as real time bellons with beautiful andimation .
-
-**Integratin**
+**Integration**
 Drag & Drop or import the NSVBellonsMenu - h , m files in your project
 
 **Configration**
-
 Import  the Header file in your class and create UIBUtton in xib or stroy board and change class as NSVBellonsMenu .
 
 **Declaration**
-
- IBOutlet NSVBellonsMenu *nsv ;
+    IBOutlet NSVBellonsMenu *nsv ;
+    
  **set delegat**
- [nsv setDelegate:self];
-  **Bellons Tag Configuration**
-   [nsv setBellonTag_y_Padding:20];
-   [nsv setBellonTag_x_Width:0.5];
+    [nsv setDelegate:self];
+    
+ **Bellons Tag Configuration**
+    [nsv setBellonTag_y_Padding:20];
+    [nsv setBellonTag_x_Width:0.5];
    
-  **Bellons  Configuration**
+ **Bellons  Configuration**
     [nsv setBellon_x_Padding:0];
    [nsv setBellon_y_Padding:0];
     [nsv setBellon_x_Padding:6];
@@ -34,9 +33,8 @@ Import  the Header file in your class and create UIBUtton in xib or stroy board 
     [nsv setBellon_Tag_color:[UIColor lightGrayColor]];
   
   **Delegate Method ** 
-    
     -(void)didTouchedBellon:(id)dict andBellonTag:(int)bellontag{
-  }
+    }
     
 
   **Example**
