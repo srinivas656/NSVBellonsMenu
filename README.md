@@ -39,9 +39,9 @@ Import  the Header file in your class and create UIBUtton in xib or stroy board 
   }
     
 
-  ** Example **
-  
-   NSMutableArray *bellonsArray = [[NSMutableArray alloc] init];
+  **Example**
+
+    NSMutableArray *bellonsArray = [[NSMutableArray alloc] init];
     NSMutableDictionary *dict  = [[NSMutableDictionary alloc] init];
     [dict setObject:@"one.png" forKey:@"img"];
     [dict setObject:[UIColor redColor] forKey:@"color"];
@@ -68,14 +68,13 @@ Import  the Header file in your class and create UIBUtton in xib or stroy board 
     [bellonsArray addObject:dict];
 
 
-      [nsv setBellonTag_y_Padding:20];
+    [nsv setBellonTag_y_Padding:20];
     [nsv setBellonTag_x_Width:0.5];
     
     [nsv setBellon_x_Padding:0];
     [nsv setBellon_y_Padding:0];
     
     [nsv setShack_speed:3];
-    
     [nsv setBellon_x_Padding:6];
     
     [nsv setBellon_img_key:@"img"];
